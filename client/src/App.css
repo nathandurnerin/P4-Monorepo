@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+@theme {
+  --color-primary: #6d573e;
+  --color-secondary: white;
+}
+
+@font-face {
+  font-family: 'Branch';
+  src: url('./assets/fonts/Branch.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+nav {
+  font-family: "Montserrat", sans-serif;
+}
